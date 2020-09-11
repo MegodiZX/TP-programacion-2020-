@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1599862458 source:c:\users\usuario\desktop\git huber\megodi\trabajo practico 1\main.c
+	<stdio.h>
+	"menu.h"
+
+1599862457 c:\users\usuario\desktop\git huber\megodi\trabajo practico 1\menu.h
+
+1599862455 source:c:\users\usuario\desktop\git huber\megodi\trabajo practico 1\menu.c
+	"funciones.h"
+	<stdio.h>
+
+1599862455 c:\users\usuario\desktop\git huber\megodi\trabajo practico 1\funciones.h
+
+1599862774 source:c:\users\usuario\desktop\git huber\megodi\trabajo practico 1\funciones.c
+	<stdio.h>
+
