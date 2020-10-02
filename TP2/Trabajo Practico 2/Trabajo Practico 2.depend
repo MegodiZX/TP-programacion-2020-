@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1601652823 source:c:\users\harilyn\desktop\github megodi\tp_laboratorio_1\tp2\trabajo practico 2\main.c
+	"Empleados.h"
+
+1601652823 c:\users\harilyn\desktop\github megodi\tp_laboratorio_1\tp2\trabajo practico 2\empleados.h
+	<stdio.h>
+	<string.h>
+
