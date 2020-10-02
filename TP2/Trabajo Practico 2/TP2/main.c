@@ -1,6 +1,6 @@
 #include "Empleados.h"
 #include "Menu.h"
-#define T 3
+#define T 1000
 int main()
 {
     eEmpleado ListaDeEmpleados[T];

@@ -27,7 +27,7 @@ int BuscarLibre(eEmpleado lista[],int tam)
 eEmpleado CrearUnEmpleado(int id)
 {
     eEmpleado empleadoACrear;
-    empleadoACrear.id=id;
+    empleadoACrear.id=id+1;
     printf("Ingrese nombre del Empleado: ");
     fflush(stdin);
     gets(empleadoACrear.nombre);
@@ -49,7 +49,7 @@ void DarDeAltaEmpleado(eEmpleado lista[],int tam)
     posicion=BuscarLibre(lista,tam);
     if(posicion!=-1)
     {
-        lista[posicion]=CrearUnEmpleado(posicion+1);
+        lista[posicion]=CrearUnEmpleado(posicion);
     }else
     {
         printf("No quedan espacio libres");
@@ -182,4 +182,36 @@ void DarDeBajaUnEmpleado(eEmpleado lista[],int tam)
         }
     }
 
+}
+
+void OrdenarPorApellidoYSector(eEmpleado lista[],int tam)
+{
+    eEmpleado auxEmpleado;
+    int i;
+    int j;
+
+    for(i=0;i<tam-1;i++)
+    {
+        for(j=i+1;j<tam;j++)
+        {
+            if(strcmp(lista[i].apellido,lista[j].apellido)<0)
+            {
+                auxEmpleado = lista[i];
+                lista[i] = lista[j];
+                lista[j] = auxEmpleado;
+            }else
+            {
+                if(strcmp(lista[i].apellido,lista[j].apellido)==0)
+                {
+                    if(lista[i].sector>lista[j].sector)
+                    {
+                        auxEmpleado = lista[i];
+                        lista[i] = lista[j];
+                        lista[j] = auxEmpleado;
+                    }
+                }
+            }
+
+        }
+    }
 }

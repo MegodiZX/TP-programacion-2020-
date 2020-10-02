@@ -45,6 +45,13 @@ void menu(eEmpleado lista[],int tam)
                 {
                     if(control==0)
                     {
+                        MostrarEmpleados(lista,tam);
+                        OrdenarPorApellidoYSector(lista,tam);
+                        MostrarEmpleados(lista,tam);
+                        /*4. INFORMAR:
+                        1. Listado de los empleados ordenados alfabéticamente por Apellido y Sector.
+                        2. Total y promedio de los salarios, y cuántos empleados superan el salario promedio.
+*/
                     }else
                     {
                         MensajeError();
