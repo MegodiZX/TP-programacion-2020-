@@ -26,3 +26,4 @@ void OrdenarPorApellidoYSector(eEmpleado lista[],int tam);
 float TotalDeSalarios(eEmpleado lista[],int tam);
 float PromedioDeSalarios(eEmpleado lista[],int tam);
 int SalariosPorEncimaDelPromedio(eEmpleado lista[],int tam);
+void PuntoCuatro(eEmpleado lista[],int tam);

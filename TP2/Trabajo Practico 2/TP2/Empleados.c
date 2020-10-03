@@ -272,3 +272,22 @@ int SalariosPorEncimaDelPromedio(eEmpleado lista[],int tam)
     }
     return cont;
 }
+
+void PuntoCuatro(eEmpleado lista[],int tam)
+{
+
+    float totalDeTodosSalarios;
+    float promedioDeTodosLosSalarios;
+    int CantidadDeSalariosPorEncimaDelPromedio;
+
+    OrdenarPorApellidoYSector(lista,tam);
+    MostrarEmpleados(lista,tam);
+
+    totalDeTodosSalarios=TotalDeSalarios(lista,tam);
+    promedioDeTodosLosSalarios=PromedioDeSalarios(lista,tam);
+    CantidadDeSalariosPorEncimaDelPromedio=SalariosPorEncimaDelPromedio(lista,tam);
+    printf("El Total de todos los salarios es: %.2f \n",totalDeTodosSalarios);
+    printf("El Promedio entre todos los salarios es: %.2f \n",promedioDeTodosLosSalarios);
+    printf("La Cantidad de salarios por encima del promedio son: %d \n",CantidadDeSalariosPorEncimaDelPromedio);
+
+}
