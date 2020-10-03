@@ -23,3 +23,5 @@ int TomarEntero(char mensaje[]);
 void ModificarEmpleado(eEmpleado lista[],int tam);
 void DarDeBajaUnEmpleado(eEmpleado lista[],int tam);
 void OrdenarPorApellidoYSector(eEmpleado lista[],int tam);
+float TotalDeSalarios(eEmpleado lista[],int tam);
+float PromedioDeSalarios(eEmpleado lista[],int tam);

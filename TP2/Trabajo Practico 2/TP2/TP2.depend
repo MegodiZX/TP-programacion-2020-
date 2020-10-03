@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1601680490 source:c:\users\usuario\desktop\tp_laboratorio_1\tp2\trabajo practico 2\tp2\empleados.c
+1601683071 source:c:\users\usuario\desktop\tp_laboratorio_1\tp2\trabajo practico 2\tp2\empleados.c
 	"Empleados.h"
 
-1601680169 c:\users\usuario\desktop\tp_laboratorio_1\tp2\trabajo practico 2\tp2\empleados.h
+1601683054 c:\users\usuario\desktop\tp_laboratorio_1\tp2\trabajo practico 2\tp2\empleados.h
 	<stdio.h>
 	<string.h>
 
@@ -12,7 +12,7 @@
 
 1601669448 c:\users\usuario\desktop\tp_laboratorio_1\tp2\trabajo practico 2\tp2\menu.h
 
-1601680170 source:c:\users\usuario\desktop\tp_laboratorio_1\tp2\trabajo practico 2\tp2\menu.c
+1601683474 source:c:\users\usuario\desktop\tp_laboratorio_1\tp2\trabajo practico 2\tp2\menu.c
 	"Empleados.h"
 	"Menu.h"
 

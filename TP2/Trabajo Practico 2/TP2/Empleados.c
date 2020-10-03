@@ -215,3 +215,44 @@ void OrdenarPorApellidoYSector(eEmpleado lista[],int tam)
         }
     }
 }
+
+float TotalDeSalarios(eEmpleado lista[],int tam)
+{
+    int i;
+    float acumulador;
+    acumulador=0;
+    for(i=0;i<tam;i++)
+    {
+        if(lista[i].estado==OCUPADO)
+        {
+            acumulador=acumulador+lista[i].salario;
+        }
+
+    }
+    return acumulador;
+}
+
+float PromedioDeSalarios(eEmpleado lista[],int tam)
+{
+    float total;
+    int i;
+    int contadorDeSalarios;
+    float promedioDeSalarios;
+    contadorDeSalarios=0;
+    total=TotalDeSalarios(lista,tam);
+
+    for(i=0;i<tam;i++)
+    {
+        if(lista[i].estado==OCUPADO)
+        {
+            contadorDeSalarios++;
+        }
+    }
+    promedioDeSalarios=total/contadorDeSalarios;
+    return promedioDeSalarios;
+}
+
+int SalariosSobreElPromedio();
+{
+
+}
