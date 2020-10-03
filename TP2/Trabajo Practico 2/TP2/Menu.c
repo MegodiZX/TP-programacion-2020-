@@ -4,7 +4,7 @@ void menu(eEmpleado lista[],int tam)
 {
     int opcion;
     int control;
-    float test;
+    int test;
     control=1;
     do
     {
@@ -49,10 +49,10 @@ void menu(eEmpleado lista[],int tam)
                         /*
                         OrdenarPorApellidoYSector(lista,tam);*/
                         MostrarEmpleados(lista,tam);
-
-                        /*TotalDeSalarios(lista,tam);*/
-                        test=PromedioDeSalarios(lista,tam);
-                        printf("El promedio es: %f",test);
+                        test=SalariosPorEncimaDelPromedio(lista,tam);
+                        printf("Salarios por encima del promedio: %d",test);
+                        /*TotalDeSalarios(lista,tam);
+                        PromedioDeSalarios(lista,tam);*/
                         /*4. INFORMAR:
                         2. Total y promedio de los salarios, y cuántos empleados superan el salario promedio.
 */

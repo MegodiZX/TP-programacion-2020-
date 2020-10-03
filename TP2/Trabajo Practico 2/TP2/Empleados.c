@@ -252,7 +252,23 @@ float PromedioDeSalarios(eEmpleado lista[],int tam)
     return promedioDeSalarios;
 }
 
-int SalariosSobreElPromedio();
+int SalariosPorEncimaDelPromedio(eEmpleado lista[],int tam)
 {
+    int i;
+    int cont;
+    float promedio;
+    cont=0;
+    promedio=PromedioDeSalarios(lista,tam);
 
+    for(i=0;i<tam;i++)
+    {
+        if(lista[i].estado==OCUPADO)
+        {
+            if(lista[i].salario>promedio)
+            {
+                cont++;
+            }
+        }
+    }
+    return cont;
 }
