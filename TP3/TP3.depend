@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1606357429 source:c:\users\megodi\downloads\tp3\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"Employee.h"
+
+1606351243 c:\users\megodi\downloads\tp3\employee.h
+	"LinkedList.h"
+
+1606350822 c:\users\megodi\downloads\tp3\linkedlist.h
+
+1606357577 source:c:\users\megodi\downloads\tp3\controler.c
+	<stdio.h>
+	<stdlib.h>
+	"Controler.h"
+	"Employee.h"
+	"parser.h"
+
+1606350228 c:\users\megodi\downloads\tp3\controler.h
+	"LinkedList.h"
+
+1606353283 c:\users\megodi\downloads\tp3\parser.h
+
+1606357056 source:c:\users\megodi\downloads\tp3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controler.h"
+	"Employee.h"
+
+1606356580 source:c:\users\megodi\downloads\tp3\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"Employee.h"
+	"strings.h"
+
